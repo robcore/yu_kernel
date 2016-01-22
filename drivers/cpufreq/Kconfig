@@ -278,7 +278,16 @@ config CPU_FREQ_GOV_SMARTMAX_SHAMU
 	bool "'smartmax' defaults for shamu"
 	depends on CPU_FREQ_GOV_SMARTMAX
 
+<<<<<<< HEAD
 >>>>>>> 49cc4f1... cpufreq: initial commit for smartmax from maxwen
+=======
+config CPU_FREQ_GOV_PMC
+  tristate "'pmc' cpufreq policy governor"	
+  select CPU_FREQ_TABLE	
+  help	
+    'smartmax' tweaked for absolute battery
+
+>>>>>>> afe55b3... cpufreq: add PMC governor
 config CPU_BOOST
 	tristate "Event base short term CPU freq boost"
 	depends on CPU_FREQ

@@ -15,7 +15,11 @@ obj-$(CONFIG_CPU_FREQ_GOV_COMMON)		+= cpufreq_governor.o
 =======
 obj-$(CONFIG_CPU_FREQ_GOV_ZZMOOVE)      += cpufreq_zzmoove.o
 obj-$(CONFIG_CPU_FREQ_GOV_SMARTMAX)	+= cpufreq_smartmax.o
+<<<<<<< HEAD
 >>>>>>> 49cc4f1... cpufreq: initial commit for smartmax from maxwen
+=======
+obj-$(CONFIG_CPU_FREQ_GOV_PMC)		+= cpufreq_pmc.o
+>>>>>>> afe55b3... cpufreq: add PMC governor
 obj-$(CONFIG_CPU_BOOST)			+= cpu-boost.o
 
 obj-$(CONFIG_GENERIC_CPUFREQ_CPU0)	+= cpufreq-cpu0.o
