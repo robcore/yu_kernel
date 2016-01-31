@@ -59,7 +59,6 @@ bool lpm_wa_get_skip_l2_spm(void)
 }
 EXPORT_SYMBOL(lpm_wa_get_skip_l2_spm);
 
-
 static int lpm_wa_cx_unvote_init(struct platform_device *pdev)
 {
 	int ret = 0;
