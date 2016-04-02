@@ -1452,12 +1452,10 @@ static int bq24157_parse_dt(struct bq24157_chip *chip)
 	if (rc < 0)
 		return -EINVAL;
 
-<<<<<<< HEAD
-=======
 #ifdef CONFIG_THUNDERCHARGE_CONTROL
 	chip->chg_curr_max = custom_ac_current;
 #else
->>>>>>> 827a39a... thundercharge control v2.0
+
 	rc = of_property_read_u32(node, "yl,max-charge-current-mA", &chip->chg_curr_max);
 	if (rc < 0)
 		return -EINVAL;
