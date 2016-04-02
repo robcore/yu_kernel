@@ -118,8 +118,6 @@ config CPU_FREQ_DEFAULT_GOV_INTERACTIVE
 	  loading your cpufreq low-level hardware driver, using the
 	  'interactive' governor for latency-sensitive workloads.
 
-<<<<<<< HEAD
-=======
 config CPU_FREQ_DEFAULT_GOV_BLU_ACTIVE
 	bool "blu_active"
 	select CPU_FREQ_GOV_BLU_ACTIVE
@@ -143,9 +141,6 @@ config CPU_FREQ_DEFAULT_GOV_SMARTMAX
 	select CPU_FREQ_GOV_SMARTMAX
 	help
 	  Use the CPUFreq governor 'smartmax' as default
-
->>>>>>> 49cc4f1... cpufreq: initial commit for smartmax from maxwen
-endchoice
 
 config CPU_FREQ_GOV_PERFORMANCE
 	tristate "'performance' governor"
@@ -243,8 +238,6 @@ config CPU_FREQ_GOV_CONSERVATIVE
 
 	  If in doubt, say N.
 
-<<<<<<< HEAD
-=======
 config CPU_FREQ_GOV_BLU_ACTIVE
 	tristate "'blu_active' cpufreq policy governor"
 	help
@@ -278,16 +271,12 @@ config CPU_FREQ_GOV_SMARTMAX_SHAMU
 	bool "'smartmax' defaults for shamu"
 	depends on CPU_FREQ_GOV_SMARTMAX
 
-<<<<<<< HEAD
->>>>>>> 49cc4f1... cpufreq: initial commit for smartmax from maxwen
-=======
 config CPU_FREQ_GOV_PMC
   tristate "'pmc' cpufreq policy governor"	
   select CPU_FREQ_TABLE	
   help	
     'smartmax' tweaked for absolute battery
 
->>>>>>> afe55b3... cpufreq: add PMC governor
 config CPU_BOOST
 	tristate "Event base short term CPU freq boost"
 	depends on CPU_FREQ
