@@ -11,19 +11,10 @@ obj-$(CONFIG_CPU_FREQ_GOV_ONDEMAND)	+= cpufreq_ondemand.o
 obj-$(CONFIG_CPU_FREQ_GOV_CONSERVATIVE)	+= cpufreq_conservative.o
 obj-$(CONFIG_CPU_FREQ_GOV_INTERACTIVE)	+= cpufreq_interactive.o
 obj-$(CONFIG_CPU_FREQ_GOV_COMMON)		+= cpufreq_governor.o
-<<<<<<< HEAD
-=======
 obj-$(CONFIG_CPU_FREQ_GOV_ZZMOOVE)      += cpufreq_zzmoove.o
-<<<<<<< HEAD
 obj-$(CONFIG_CPU_FREQ_GOV_SMARTMAX)	+= cpufreq_smartmax.o
-<<<<<<< HEAD
->>>>>>> 49cc4f1... cpufreq: initial commit for smartmax from maxwen
-=======
-=======
 obj-$(CONFIG_CPU_FREQ_GOV_SMARTMAX)	+= cpufreq_smartmax_gov.o
->>>>>>> 22a051d... cpufreq: Alter up Smartmax for PMC
 obj-$(CONFIG_CPU_FREQ_GOV_PMC)		+= cpufreq_pmc.o
->>>>>>> afe55b3... cpufreq: add PMC governor
 obj-$(CONFIG_CPU_BOOST)			+= cpu-boost.o
 
 obj-$(CONFIG_GENERIC_CPUFREQ_CPU0)	+= cpufreq-cpu0.o
