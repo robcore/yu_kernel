@@ -851,11 +851,8 @@ static struct rcg_clk gfx3d_clk_src = {
 	.c = {
 		.dbg_name = "gfx3d_clk_src",
 		.ops = &clk_ops_rcg,
-<<<<<<< HEAD
 		VDD_DIG_FMAX_MAP4(LOW, 19200000, NOMINAL, 400000000, NOMINAL_PLUS, 465000000, HIGH,
-=======
 		VDD_DIG_FMAX_MAP4(LOW, 19200000, NOMINAL, 400000000, NOMINAL_PLUS, 475000000, HIGH,
->>>>>>> 918c828... Added support for 19MHz Low-Power Mode of GPU
 			650000000),
 		CLK_INIT(gfx3d_clk_src.c),
 	},
