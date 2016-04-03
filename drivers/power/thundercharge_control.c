@@ -1,5 +1,5 @@
 /*
- * Copyright © 2015, Varun Chitre "varun.chitre15" <varun.chitre15@gmail.com>
+ * Copyright Â© 2015, Varun Chitre "varun.chitre15" <varun.chitre15@gmail.com>
  *
  * Charger Control driver for yl_bq24157_charger and yl_fan5405_charger
  *
@@ -19,16 +19,13 @@
 #include <linux/kernel.h>
 #include "thundercharge_control.h"
 
-<<<<<<< HEAD
 #define ENABLED             0
 #define AC_CURRENT          1100
 #define USB_CURRENT         500
 #define MAX_VBUS_CURRENT    1500
 #define THUNDERCHARGE       "thundercharge"
-=======
 int mswitch=0;
 int custom_current=1250;
->>>>>>> 2db2a07... Set 1250mAh as default Charging Current
 
 int mswitch = ENABLED;
 int custom_ac_current = AC_CURRENT;
